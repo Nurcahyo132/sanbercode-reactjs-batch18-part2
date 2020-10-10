@@ -18,7 +18,7 @@ const TableBody = props => {
         <tr key={index} >
           <td >{rows.nama}</td>
           <td >{rows.harga}</td>
-          <td >{rows.berat}</td>
+          <td >{rows.berat/1000}kg</td>
         </tr>
       )
     });
